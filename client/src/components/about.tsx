@@ -69,7 +69,7 @@ const About = () => {
   
               {/* Resume button */}
               <a
-                href="#"
+                href="/CVNouhailaElkante.pdf"
                 className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-[#b58742] text-black text-sm font-semibold rounded-full hover:bg-[#c99a50] transition-all duration-300 hover:shadow-lg hover:shadow-[#b58742]/25"
               >
                 Download CV

@@ -20,7 +20,7 @@ const Navbar = () => {
   useEffect(() => {
     if (pathname !== "/") return;
 
-    const sectionIds = ["about", "skills", "projects", "contact"];
+    const sectionIds = ["skills", "about", "projects", "contact"];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -59,9 +59,9 @@ const Navbar = () => {
 
   // Section anchor links
   const sectionLinks = [
-    { name: "About", id: "about" },
     { name: "Skills", id: "skills" },
     { name: "Projects", id: "projects" },
+    { name: "About", id: "about" },
     { name: "Contact", id: "contact" },
   ];
 
